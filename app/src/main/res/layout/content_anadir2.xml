@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="80sp">
+
+    <TextView
+        android:id="@+id/anadirEtiquetaNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/anadirInputNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Introduce tu nombre" />
+
+    <TextView
+        android:id="@+id/anadirEtiquetaEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/anadirInputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Introduce tu email" />
+
+    <TextView
+        android:id="@+id/anadirEtiquetaEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad:"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/anadirInputEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Introduce tu edad" />
+
+    <Button
+        android:id="@+id/anadirBotonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:onClick="anadirContacto"/>
+</LinearLayout>

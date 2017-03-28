@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.telefonica.agenda.db.Principal">
+    <item
+        android:id="@+id/action_principal"
+        android:orderInCategory="100"
+        android:title="Principal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_anadir"
+        android:orderInCategory="100"
+        android:title="Añadir"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_buscar"
+        android:orderInCategory="100"
+        android:title="Buscar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ver_todos"
+        android:orderInCategory="100"
+        android:title="Ver Todos"
+        app:showAsAction="never" />
+
+</menu>
